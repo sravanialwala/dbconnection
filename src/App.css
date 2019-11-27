@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.heading
+{
+    text-align:left;
+    
+}
+.csshead
+{
+    height:60px;
+       position: relative;
+    width:100%;
+    /* background-color: #5cc1e0; */
+    /* border: 5px groove solid rgb(20, 104, 129); */
+    background-origin: padding-box;
+    border-width: thin;
+    text-align: center;
+    bottom:40px;
+    /* padding:3px; */
+    float: left;
+}
+.App-link {
+  color: #09d3ac;
+}
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 30%;
+}
+#students table{
+  text-align: center;
+}
+#students thead{
+  background-color: #4CAF50;
+
+}
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(0){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.image{
+  float: left;
+}

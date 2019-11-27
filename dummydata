@@ -1,0 +1,15 @@
+console.log("in render")
+    const {message} = this.state
+    console.log(message)
+    const length = Object.keys(message).length
+    console.log("length is"+length)
+    console.log(Object.values(message))
+    console.log(Object.values(message).values(message))
+    var dict = this.state.message;
+    console.log(this.state.message[1])
+    const vaee = this.state.message[1]
+    const CarValues = {
+      Honda: ['white', 'yellow', 'red', 'orange'],
+      Toyota: ['white', 'yellow', 'green', 'black'],
+      Volkswagen: [123, 456, 343]
+    }
